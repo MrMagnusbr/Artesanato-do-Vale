@@ -1,1 +1,39 @@
-
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4e9cd; /* cor de fundo inspirada na argila */
+  color: #5a4233; /* cor do texto inspirada na terra */
+}
+header {
+  background-color: #c1440e; /* cor inspirada nas pinturas */
+  padding: 10px 0;
+  text-align: center;
+}
+header h1 {
+  color: #fff;
+}
+nav {
+  background-color: #a76f1f; /* cor inspirada nos adornos */
+  padding: 5px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+nav a:hover {
+  background-color: #f4e9cd;
+  color: #5a4233;
+}
+.container {
+  padding: 20px;
+}
+footer {
+  background-color: #c1440e;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
