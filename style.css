@@ -1,39 +1,85 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.gallery img {
+  max-width: 200px;
+  height: auto;
+  border: 2px solid var(--marrom-escuro);
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Restante do CSS */
+:root {
+  --terracota: #E07A5F;
+  --verde-oliva: #9EAD7F;
+  --bege-claro: #F3EED9;
+  --marrom-escuro: #4A3F35;
+  --azul-ceu: #87B6A7;
+}
+
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #f4e9cd; /* cor de fundo inspirada na argila */
-  color: #5a4233; /* cor do texto inspirada na terra */
+  font-family: Arial, sans-serif;
+  background-color: var(--bege-claro);
+  color: var(--marrom-escuro);
+  margin: 0;
+  padding: 0;
 }
+
 header {
-  background-color: #c1440e; /* cor inspirada nas pinturas */
-  padding: 10px 0;
+  background-color: var(--terracota);
+  color: var(--bege-claro);
   text-align: center;
+  padding: 1rem 0;
 }
-header h1 {
-  color: #fff;
-}
+
 nav {
-  background-color: #a76f1f; /* cor inspirada nos adornos */
-  padding: 5px;
-  text-align: center;
+  background-color: var(--verde-oliva);
+  padding: 1rem;
 }
-nav a {
-  color: #fff;
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: var(--bege-claro);
   text-decoration: none;
-  padding: 5px 10px;
+  font-weight: bold;
 }
-nav a:hover {
-  background-color: #f4e9cd;
-  color: #5a4233;
+
+main {
+  padding: 2rem;
 }
-.container {
-  padding: 20px;
+
+section {
+  margin-bottom: 2rem;
 }
+
 footer {
-  background-color: #c1440e;
-  color: #fff;
+  background-color: var(--terracota);
+  color: var(--bege-claro);
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 1rem 0;
+}
+
+/* Adicionando um pouco de estilização aos links */
+a:hover {
+  color: var(--azul-ceu);
 }
