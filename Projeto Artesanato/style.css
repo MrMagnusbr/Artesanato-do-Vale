@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ccc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+header {
+    background-color: #936e4c;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+header.dark-mode {
+    background-color: #444;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 60px 0; 
+}
+
+.bg-home {
+    background-image: url('cropped-1920-1080-1301855.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    height: 600px;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bg-home .container {
+    position: relative;
+    z-index: 2;
+}
+
+.bg-home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #936e4c;
+    text-align: center;
+}
+
+body.dark-mode section h2 {
+    color: #936e4c;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.galeria-item {
+    flex: 1 1 calc(33.333% - 20px); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+
+body.dark-mode .galeria-item {
+    background: #333;
+    color: #ccc;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.galeria-item p {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body.dark-mode footer {
+    background-color: #222;
+}
+
+#darkmodo {
+    background-color: #936e4c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#theme-toggle:hover {
+    background-color: #765734;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #444;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: #666;
+}
