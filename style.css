@@ -35,6 +35,7 @@ body {
 }
 
 header {
+  font-family: Apple Chancery, cursive;
   background-color: var(--terracota);
   color: var(--bege-claro);
   text-align: center;
@@ -82,4 +83,7 @@ footer {
 /* Adicionando um pouco de estilização aos links */
 a:hover {
   color: var(--azul-ceu);
+}
+main{
+  width: 60%;
 }
