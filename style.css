@@ -17,11 +17,11 @@
   transform: scale(1.05);
 }
 
-/* Restante do CSS */
+/* Restante do CSS F3EED9 */
 :root {
-  --terracota: #E07A5F;
+  --terracota:   #FFA02E;
   --verde-oliva: #9EAD7F;
-  --bege-claro: #F3EED9;
+  --bege-claro: #9EAD7F;
   --marrom-escuro: #4A3F35;
   --azul-ceu: #87B6A7;
 }
@@ -36,14 +36,19 @@ body {
 
 header {
   font-family: Apple Chancery, cursive;
+  font-size: 100%;
   background-color: var(--terracota);
-  color: var(--bege-claro);
+  color: #964b00;
   text-align: center;
   padding: 1rem 0;
 }
+header img{
+  width: 30%;
+  max-width: 500px;
+}
 
 nav {
-  background-color: var(--verde-oliva);
+  background-color: #964b00;
   padding: 1rem;
 }
 
@@ -60,9 +65,10 @@ nav ul li {
 }
 
 nav ul li a {
-  color: var(--bege-claro);
+  color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
 }
 
 main {
