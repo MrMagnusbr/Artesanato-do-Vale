@@ -1,27 +1,7 @@
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-}
-
-.gallery img {
-  max-width: 200px;
-  height: auto;
-  border: 2px solid var(--marrom-escuro);
-  border-radius: 8px;
-  transition: transform 0.2s;
-}
-
-.gallery img:hover {
-  transform: scale(1.05);
-}
-
-/* Restante do CSS F3EED9 */
 :root {
-  --terracota:   #FFA02E;
+  --terracota: #FFA02E;
   --verde-oliva: #9EAD7F;
-  --bege-claro: #9EAD7F;
+  --bege-claro: #F3EED9;
   --marrom-escuro: #4A3F35;
   --azul-ceu: #87B6A7;
 }
@@ -35,17 +15,42 @@ body {
 }
 
 header {
-  font-family: Apple Chancery, cursive;
-  font-size: 100%;
   background-color: var(--terracota);
-  color: #964b00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  width: 40%;
+  max-width: 600px;
+}
+
+/* Título responsivo */
+header h1 {
+  font-family: 'Apple Chancery', cursive;
+  color: var(--marrom-escuro);
+  font-size: 2vw; /* Alterado de 2rem para 2vw */
+  margin: 0;
+  flex-grow: 1;
   text-align: center;
-  padding: 1rem 0;
+  padding-right: 10%;
 }
-header img{
-  width: 30%;
-  max-width: 500px;
+
+/* Media query para ajustar o tamanho da fonte em telas menores */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
+  }
 }
+
 
 nav {
   background-color: #964b00;
@@ -90,6 +95,8 @@ footer {
 a:hover {
   color: var(--azul-ceu);
 }
-main{
+
+main {
   width: 60%;
+  margin: 0 auto;
 }
