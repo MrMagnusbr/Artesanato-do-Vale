@@ -1,0 +1,48 @@
+Almenara
+diomildo 
+
+Jequitinhonha
+casa de cultura
+irma de dona deniz
+
+elza có
+bio
+Dona Elza Có, também conhecida como Elza Pereira de Andrade, é uma artesã nascida e criada no município de Jequitinhonha, Minas Gerais. Com 87 anos de idade, ela é detentora do título de mestra guardiã da cultura popular. Vinda de uma família humilde, Elza Có é a sexta de 22 filhos e aprendeu desde cedo a costurar e bordar. Sua história de vida é registrada no documentário “ALMA DE MINAS”, onde sua vitalidade, bom humor e sabedoria são evidentes.
+Dona Elsa Pereira de Andrade conta hoje seus 85 anos, teve 12 filhos e criou muitos outros adotivos. Até hoje, ela organiza o boi de janeiro da cidade de Jequitinhonha e faz parte do reisado. Um exemplo de vida para o jovem artesão, que tem suas peças comercializadas em várias regiões do Brasil. 
+Com 87 anos, Elza Pereira de Andrade, mais conhecida como dona Elza Có, é uma artesã nascida e criada no município de Jequitinhonha. De família humilde, sendo a sexta de 22 filhos, aprendeu desde cedo a costurar e a bordar. Sua habilidade precoce pela arte não se limitou a produção de bordados, tricôs e cortes de costura, mas se estendeu a criação de cerâmicas e argilas, com as quais ajudou a sustentar sua família. Mais tarde, aos 59 anos passou a coordenar o evento anual Boi de Janeiro e as negas de Heraldo. Devido aos seus feitos, ela recebeu o título de símbolo cultural de Jequitinhonha. Hoje, apesar da idade avançada, Elza não quer descansar e pretende continuar com seus projetos
+
+eliene
+
+V leo 
+bio:
+Leonardo Batista dos Santos nasceu em Belo Horizonte, porém foi criado na cidade de Jequitinhonha, no Baixo Vale do Jequitinhonha.
+A história que ele ouviu de seus pais adotivos é de que sua mãe biológica retornou de Belo Horizonte para Jequitinhonha já separada e o levou, ainda criança, para a casa dos pais dela. O avô de Léo não o aceitou em casa devido à situação da mãe. E o artesão acredita que, em função da situação de submissão da avó, ela consentiu que o neto fosse abandonado “na rua”. 
+Antes de ser adotado, Leonardo lembra que uma família de descendentes de alemães residente na cidade o acolheu em casa para criá-lo. Acometido por uma enfermidade, seu corpo se encheu de feridas e, em razão da dificuldade de acesso a atendimento médico, desconhecendo a natureza das feridas, foi novamente abandonado pelo casal. Leonardo ficou na rua por algum tempo até ser adotado por Elsa Pereira – D. Elza Có –, que já criava seis filhos.
+Foi com sua mãe adotiva, a quem carinhosamente chama de “minha dama de ferro”, que Leonardo aprendeu o ofício do artesanato com o barro. Aos 7 anos de idade, observando a mãe moldar o barro para fazer panelas, ele pegava o barro e fazia seus próprios brinquedos, bois e carrinhos. Iniciava-se ali, de forma lúdica, seu trabalho com cerâmica.
+A inspiração para fazer sua arte, em especial as estátuas de São Francisco, ele conta que advém da própria vida de São Francisco, um homem rico que deixou tudo para viver para Deus e cuidar dos pobres. Suas peças apresentam São Francisco em cenas diversas, ligadas à natureza e aos animais, sempre impregnadas de singeleza e emoção.
+
+
+selma quaresma 
+bio:Selma Quaresma de Souza Mattos é uma artesã de Jequitinhonha, Minas Gerais. Sua jornada criativa começou quando, ainda criança, ela fazia pelotas de barro retirado das margens de uma lagoa na fazenda onde morava. Com folhas secas, improvisava um forno para “queimar” o barro, que ganhava uma coloração esbranquiçada. Mais tarde, Selma decidiu seguir sua paixão pelo artesanato e largou a advocacia para se dedicar a essa arte. Ela produz bijuterias de argila, esculturas de bonecas inspiradas em mulheres do Vale do Jequitinhonha e outras peças abstratas.
+
+tecelãs do guarani
+
+marlice machado 
+bio: Marlice Machado de Oliveira é uma artista têxtil e professora de tecelagem manual.
+Ela nasceu em Roça Grande, distrito de Berilo, região de longa tradição têxtil, 
+registrada em relatos de viajantes ainda no século 18. A maestria da trama no enlace 
+de cores e formas com os fios de algodão abriu à pequena Marlice Machado de Oliveira 
+um mundo de encantamentos, ainda na mais tenra idade
+
+
+
+<h3>nome</h3>
+                <img
+                    src="link"
+                    alt="nome"
+                    style="width: 50%; float: right; margin-left: 20px"
+                />
+                <h4><bold> Biografia:</bold></h4>
+                <p>bio</p>
+                <h4><bold> Estilo:</bold></h4>
+                <p>estilo</p>

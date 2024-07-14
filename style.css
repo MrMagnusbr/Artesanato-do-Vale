@@ -116,15 +116,15 @@ nav ul li {
     margin: 0 1rem;
 }
 .contato {
-  border-radius: 30px;
-  color: white;
-  padding: 1rem;
-  text-decoration: none;
-  background-color: #333;
-  text-decoration-style: none;
+    border-radius: 30px;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: #333;
+    text-decoration-style: none;
 }
 nav ul li a {
-  background-color: none;
+    background-color: none;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -138,14 +138,18 @@ main {
 section {
     margin-bottom: 2rem;
 }
-form{
-  padding-top: 20px;
+form {
+    padding-top: 20px;
 }
 footer {
     background-color: var(--terracota);
     color: var(--bege-claro);
     text-align: center;
     padding: 1rem 0;
+}
+footer a {
+    text-decoration: none;
+    color: black;
 }
 
 a:hover {
