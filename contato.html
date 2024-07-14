@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato - Jequiarte</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Minha Página de Contato</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <img src="Jequiarte.png" alt="logotipo" />
+                <h1>O Artesanato no Vale do Jequitinhonha</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="historia.html#artistas">Artistas</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+
+        <section class="contact">
+            <h1>Contato</h1>
+            <a href="https://linkr.it/47edDQ" class="contato">WhatsApp</a>
+            <a href="https://www.instagram.com/artesdojequi" class="contato">Instagram</a>
+            <form action="enviar.php" method="post">
+                <h3>Entre em contato conosco:</h2>
+                <input type="text" name="nome" placeholder="Nome" required />
+                <input type="email" name="email" placeholder="E-mail" required />
+                <input type="tel" name="telefone" placeholder="Telefone" />
+                <textarea
+                    name="mensagem"
+                    placeholder="Mensagem"
+                    rows="4"
+                    required
+                ></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+        <footer id="rodape">
+            <a href="contato.html">Contato</a>
+            <!-- 
+        Formas de contato: <a href="https://linkr.it/47edDQ">WhatsApp</a>
+        <a href="https://www.instagram.com/artesdojequi">Instagram</a>
+        -->
+            <p></p>
+            <p>
+                &copy; 2024 O Artesanato do Vale do Jequitinhonha. Todos os direitos
+                reservados.
+            </p>
+        </footer>
+    </body>
 </html>

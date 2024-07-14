@@ -1,148 +1,178 @@
 :root {
-  --terracota: #FFA02E;
-  --verde-oliva: #9EAD7F;
-  --bege-claro: #F3EED9;
-  --marrom-escuro: #4A3F35;
-  --azul-ceu: #87B6A7;
+    --terracota: #ffa02e;
+    --verde-oliva: #9ead7f;
+    --bege-claro: #f3eed9;
+    --marrom-escuro: #4a3f35;
+    --azul-ceu: #87b6a7;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: var(--bege-claro);
-  color: var(--marrom-escuro);
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bege-claro);
+    color: var(--marrom-escuro);
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: var(--terracota);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 2rem;
+    background-color: var(--terracota);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
 }
 
 .header-content {
-  display: flex;
-  align-items: center;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 header img {
-  width: 40%;
-  max-width: 600px;
+    width: 40%;
+    max-width: 600px;
 }
 
 /* Título responsivo */
 header h1 {
-  font-family: 'Apple Chancery', cursive;
-  color: var(--marrom-escuro);
-  font-size: 3vw;
-  margin: 0;
-  flex-grow: 1;
-  text-align: center;
-  padding-right: 10%;
+    font-family: "Apple Chancery", cursive;
+    color: var(--marrom-escuro);
+    font-size: 3vw;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 10%;
 }
 
 img {
-  max-width: 90%;
-  height: auto;
-  border-radius: 8px;
-  margin: 10px 0;
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
 }
 
 p {
-  font-size: 2vw;
-  line-height: 1.6;
-  margin-bottom: 1rem;
+    font-size: 2vw;
+    line-height: 1.6;
+    margin-bottom: 1rem;
 }
 
 ul {
-  font-size: 2vw;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+    font-size: 2vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 section {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 2.5rem;
-  color: var(--marrom-escuro);
-  margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: var(--marrom-escuro);
+    margin-bottom: 1rem;
 }
 
-h3, h4 {
-  font-size: 2rem;
-  color: var(--marrom-escuro);
-  margin-bottom: 0.5rem;
+h3,
+h4 {
+    font-size: 2rem;
+    color: var(--marrom-escuro);
+    margin-bottom: 0.5rem;
 }
 /* Media query para ajustar o tamanho da fonte em telas menores */
 
 @media (max-width: 600px) {
-  h2 {
-    font-size: 2rem;
-  }
+    h2 {
+        font-size: 2rem;
+    }
 
-  h3, h4 {
-    font-size: 1.5rem;
-  }
+    h3,
+    h4 {
+        font-size: 1.5rem;
+    }
 
-  header h1 {
-    font-size: 3vw;
-  }
-  header h1 {
-    font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
-  }
+    header h1 {
+        font-size: 3vw;
+    }
+    header h1 {
+        font-size: 4vw; /* Ajusta o tamanho da fonte para telas menores */
+    }
 }
 
-
 nav {
-  background-color: #964b00;
-  padding: 1rem;
+    background-color: #964b00;
+    padding: 1rem;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 nav ul li {
-  margin: 0 1rem;
+    margin: 0 1rem;
 }
-
-nav ul li a {
+.contato {
+  border-radius: 30px;
   color: white;
+  padding: 1rem;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
+  background-color: #333;
+  text-decoration-style: none;
+}
+nav ul li a {
+  background-color: none;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 main {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 section {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
-
+form{
+  padding-top: 20px;
+}
 footer {
-  background-color: var(--terracota);
-  color: var(--bege-claro);
-  text-align: center;
-  padding: 1rem 0;
+    background-color: var(--terracota);
+    color: var(--bege-claro);
+    text-align: center;
+    padding: 1rem 0;
 }
 
-/* Adicionando um pouco de estilização aos links */
 a:hover {
-  color: var(--azul-ceu);
+    color: var(--azul-ceu);
 }
 
 main {
-  width: 60%;
-  margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
+}
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
