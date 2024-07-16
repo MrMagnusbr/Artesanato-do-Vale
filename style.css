@@ -151,7 +151,8 @@ footer a {
     text-decoration: none;
     color: black;
 }
-
+a {
+    text-decoration: none;}
 a:hover {
     color: var(--azul-ceu);
 }
